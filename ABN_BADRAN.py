@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-TOKEN = "ضع_التوكن_هنا"
+TOKEN = "8416841364:AAH_gf08ccRuju_Fz1CLKdtdi3OItlHKOOs"
 
 async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
     for member in update.message.new_chat_members:
